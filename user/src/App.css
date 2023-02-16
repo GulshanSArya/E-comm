@@ -1,0 +1,221 @@
+.nav-ul {
+  background-color: #009688;
+  margin: 0px;
+  padding: 5px;
+  justify-content: flex-end;
+  display: flex;
+}
+.nav-ul li {
+  display: inline-flex;
+}
+.nav-ul li a {
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #009688;
+  width: 100%;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.buynow {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px;
+  padding: 16px;
+}
+.li-name {
+  color: #009688;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.register,
+.book {
+  margin-left: 30%;
+  margin-top: 10px;
+}
+.login {
+  margin-left: 30%;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid #009688;
+  padding: 5px;
+}
+.product-list ul {
+  margin: 0px;
+}
+
+.nav-right {
+  text-align: right;
+}
+.inputBox {
+  padding: 7px;
+  display: block;
+  border: 1px solid #009688;
+  width: 300px;
+  margin: 20px;
+}
+.inputBox1 {
+  padding: 7px;
+  display: block;
+  border: 1px solid #009688;
+  width: 300px;
+  margin: 0px;
+}
+.appButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: #009688;
+  border: solid 1px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.appButton1 {
+  margin: 0px;
+  width: 150px;
+  padding: 10px;
+  background-color: #009688;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.product-detail {
+  display: flex;
+  justify-content: space-evenly;
+}
+.first-li {
+  cursor: pointer;
+}
+.first-li:hover {
+  background-color: #61dafb;
+  font-weight: 900;
+}
+.avatar {
+  height: 20px;
+  width: 20px;
+}
+
+.product-lists {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.product-lists .column {
+  float: left;
+  width: 25%;
+  padding: 25px;
+  margin: 16px;
+  border: 11px solid #acb3a5;
+  list-style: none;
+}
+.product-lists .column img {
+  height: 300px;
+  width: 100%;
+}
+
+.image-detail {
+  width: 250px;
+  height: 200px;
+}
+.order-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 20px;
+}
+.order-table tr td {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #0b7390;
+}
+.col1 {
+  margin: 25px;
+}
+.row1 {
+  display: flex;
+  width: 50%;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.product-details {
+  display: grid;
+  justify-content: center;
+}
+
+.logout {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
